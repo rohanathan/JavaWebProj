@@ -68,24 +68,19 @@ This repository contains a web application project built using Java Servlets. Th
 ---
 
 ## Directory Structure
+WebProj/src/main/java
 
-WebProj/
-│
-├── src/main/java
-│   ├── RegisterServlet.java
-│   ├── LoginServlet.java
-│   ├── ServletConfigDemo.java
-│   └── ServletContextDemo.java
-│
-├── src/main/webapp
-│   ├── META-INF
-│   ├── WEB-INF
-	│   ├── web.xml
-	│   └── lib/
-	│       └── postgresql-<version>.jar
-│
-└── login.jsp
-└── register.jsp
+RegisterServlet.java
+LoginServlet.java
+ServletConfigDemo.java
+ServletContextDemo.java
+
+WebProj/src/main/webapp/META-INF
+WebProj/src/main/webapp/WEB-INF/web.xml
+WebProj/src/main/webapp/WEB-INF/lib/postgresql-<version>.jar
+
+WebProj/login.jsp
+WebProj/register.jsp
 
 
 ## Future Enhancements
