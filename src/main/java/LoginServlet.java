@@ -3,6 +3,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import java.sql.*;
 
+
 public class LoginServlet extends HttpServlet {
 	Connection con;
 	public void init(ServletConfig config) {
